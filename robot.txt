@@ -1,0 +1,13 @@
+# robots.txt для ppc.balance.pp.ua
+# Контроль індексації та карта сайту
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+
+# Дозволяємо індексацію всього іншого
+Allow: /
+
+# Sitemap
+Sitemap: https://ppc.balance.pp.ua/sitemap.xml
